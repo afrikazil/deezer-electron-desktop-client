@@ -1,0 +1,40 @@
+{
+    "name": "deezer-client",
+    "version": "0.0.1",
+    "description": "A client for deezer coz I can't seem to find a decent one compartible with my bank account",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-builder build  "
+    },
+    "build": {
+        "appId": "1666777",
+        "deb": {
+            "packageCategory": "libc6"
+        },
+        "directories": {
+            "buildResources": "resources"
+        }
+    },
+    "repository": "https://github.com/Billcountry/deezer",
+    "keywords": [
+        "Deezer",
+        "Music",
+        "Client",
+        "Linux",
+        "Arch",
+        "Ubuntu",
+        "Mint"
+    ],
+    "author": "Billcountry <john@doe.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "17.1.0",
+        "electron-builder": "^22.14.13",
+        "electron-packager": "14.2.1"
+    },
+    "dependencies": {
+        "electron-icon-builder": "^2.0.1",
+        "mpris-service": "^2.1.0"
+    }
+}
