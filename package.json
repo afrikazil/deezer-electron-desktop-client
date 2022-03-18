@@ -16,7 +16,6 @@
             "buildResources": "resources"
         }
     },
-    "repository": "https://github.com/Billcountry/deezer",
     "keywords": [
         "Deezer",
         "Music",
@@ -30,11 +29,10 @@
     "license": "MIT",
     "devDependencies": {
         "electron": "17.1.0",
-        "electron-builder": "^22.14.13",
+        "electron-builder": "22.14.13",
         "electron-packager": "14.2.1"
     },
     "dependencies": {
-        "electron-icon-builder": "^2.0.1",
-        "mpris-service": "^2.1.0"
+        "mpris-service": "2.1.0"
     }
 }
